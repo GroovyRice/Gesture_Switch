@@ -1,0 +1,2 @@
+rootProject.name = "Gesture Switch Main"
+include ':app'

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gesture Switch Main</string>
+    <string name="motion_detected">Motion Detected:</string>
+    <string name="swipe_up">Swipe Up</string>
+    <string name="swipe_down">Swipe Down</string>
+    <string name="previous_motion">Previous Motion:</string>
+</resources>

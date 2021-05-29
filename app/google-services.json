@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "314375234202",
+    "firebase_url": "https://gesture-switch-445f4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "gesture-switch-445f4",
+    "storage_bucket": "gesture-switch-445f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314375234202:android:125838d7d4c0939d5b3523",
+        "android_client_info": {
+          "package_name": "com.DucTronics.GestureSwitch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314375234202-b24r4g0gi6ovpkmaepanrqbaelsnpivp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd4tGBB-TAMG_w36H343pWYB7lKNs2wMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314375234202-b24r4g0gi6ovpkmaepanrqbaelsnpivp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
