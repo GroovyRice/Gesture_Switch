@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FunctionsActivity">
+
+    <TextView
+        android:id="@+id/SwipeUpFunction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/swipeUpFunc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SwipeDownFunction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/swipeDownFunc"
+        app:layout_constraintEnd_toEndOf="@+id/SwipeUpFunction"
+        app:layout_constraintStart_toStartOf="@+id/SwipeUpFunction"
+        app:layout_constraintTop_toBottomOf="@+id/SwipeUpFunction" />
+
+    <TextView
+        android:id="@+id/SwipeLeftFunction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/swipeLeftFunc"
+        app:layout_constraintEnd_toEndOf="@+id/SwipeDownFunction"
+        app:layout_constraintStart_toStartOf="@+id/SwipeDownFunction"
+        app:layout_constraintTop_toBottomOf="@+id/SwipeDownFunction" />
+
+    <TextView
+        android:id="@+id/SwipeRightFunction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/swipeRightFix"
+        app:layout_constraintEnd_toEndOf="@+id/SwipeLeftFunction"
+        app:layout_constraintStart_toStartOf="@+id/SwipeLeftFunction"
+        app:layout_constraintTop_toBottomOf="@+id/SwipeLeftFunction" />
+
+    <Spinner
+        android:id="@+id/SwipeUpSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        app:layout_constraintBottom_toBottomOf="@+id/SwipeUpFunction"
+        app:layout_constraintEnd_toEndOf="@+id/SwipeDownSpinner"
+        app:layout_constraintStart_toStartOf="@+id/SwipeDownSpinner"
+        app:layout_constraintTop_toTopOf="@+id/SwipeUpFunction"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/SwipeDownSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/SwipeDownFunction"
+        app:layout_constraintStart_toEndOf="@+id/SwipeDownFunction"
+        app:layout_constraintTop_toTopOf="@+id/SwipeDownFunction" />
+
+    <Spinner
+        android:id="@+id/SwipeLeftSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/SwipeLeftFunction"
+        app:layout_constraintEnd_toEndOf="@+id/SwipeDownSpinner"
+        app:layout_constraintStart_toStartOf="@+id/SwipeDownSpinner"
+        app:layout_constraintTop_toTopOf="@+id/SwipeLeftFunction" />
+
+    <Spinner
+        android:id="@+id/SwipeRightSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/SwipeRightFunction"
+        app:layout_constraintEnd_toEndOf="@+id/SwipeLeftSpinner"
+        app:layout_constraintStart_toStartOf="@+id/SwipeLeftSpinner"
+        app:layout_constraintTop_toTopOf="@+id/SwipeRightFunction" />
+
+    <Button
+        android:id="@+id/saveFunctions"
+        android:layout_width="84dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="432dp"
+        android:text="@string/save"
+        android:onClick="saveButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

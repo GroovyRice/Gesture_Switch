@@ -4,4 +4,30 @@
     <string name="swipe_up">Swipe Up</string>
     <string name="swipe_down">Swipe Down</string>
     <string name="previous_motion">Previous Motion:</string>
+    <string name="functions">Functions</string>
+    <string name="swipeUpFunc">Swipe Up =</string>
+    <string name="swipeDownFunc">Swipe Down =</string>
+    <string name="swipeLeftFunc">Swipe Left =</string>
+    <string name="swipeRightFix">Swipe Right =</string>
+    <string name="save">Save</string>
+    <string-array name="lights">
+        <item>Light(1) On</item>
+        <item>Light(1) Off</item>
+        <item>Light(2) On</item>
+        <item>Light(2) Off</item>
+        <item>Light(3) On</item>
+        <item>Light(3) Off</item>
+        <item>Light(4) On</item>
+        <item>Light(4) Off</item>
+    </string-array>
+    <string-array name="lightsEq">
+        <item>11</item>
+        <item>10</item>
+        <item>21</item>
+        <item>20</item>
+        <item>31</item>
+        <item>30</item>
+        <item>41</item>
+        <item>40</item>
+    </string-array>
 </resources>
